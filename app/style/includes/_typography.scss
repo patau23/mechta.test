@@ -1,0 +1,159 @@
+h1, .h1 {
+margin: 0;
+font-size: 52px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: -2px;
+
+@include breakpoint(xmedium down) { // проверить адаптив когда появятся макеты
+font-size: 33px;
+line-height: 36px;
+letter-spacing: -0.7px;
+}
+}
+
+h2, .h2 {
+margin: 0;
+font-size: 32px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: -1px;
+
+@include breakpoint(xmedium down) { // проверить адаптив когда появятся макеты
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.4px;
+}
+}
+
+h3, .h3 {
+margin: 0;
+font-size: 28px;
+font-weight: 600;
+line-height: 1;
+letter-spacing: -1px;
+
+@include breakpoint(xmedium down) { // проверить адаптив когда появятся макеты
+font-size: 21px;
+line-height: 25px;
+letter-spacing: initial;
+}
+}
+
+h4, .h4 {
+margin: 0;
+font-size: 24px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: -0.7px;
+
+@include breakpoint(xmedium down) { // проверить адаптив когда появятся макеты
+font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.1px;
+}
+}
+
+h5, .h5 {
+margin: 0;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: -0.5px; // сделать адаптив когда появятся макеты
+}
+
+.button-text {
+font-size: 16px;
+font-weight: 700;
+line-height: 1;
+letter-spacing: -0.1px;
+}
+
+.text-18 {
+&-semi {
+font-size: 18px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: -0.072px;
+}
+
+&-med {
+font-size: 18px;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: -0.072px;
+}
+
+&-reg {
+font-size: 18px;
+line-height: 130%;
+letter-spacing: -0.072px;
+}
+}
+
+.text-16 {
+&-semi {
+font-size: 16px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: -0.064px;
+}
+
+&-med {
+font-size: 16px;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: -0.064px;
+}
+
+&-reg {
+font-size: 16px;
+line-height: 130%;
+letter-spacing: -0.064px;
+}
+}
+
+.text-14 {
+&-semi {
+font-size: 14px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: -0.056px;
+}
+
+&-med {
+font-size: 14px;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: -0.056px;
+}
+
+&-reg {
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.056px;
+}
+}
+
+.text-12 {
+&-semi {
+font-size: 12px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: -0.048px;
+}
+
+&-med {
+font-size: 12px;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: -0.048px;
+}
+
+&-reg {
+font-size: 12px;
+line-height: 130%;
+letter-spacing: -0.048px;
+}
+}

@@ -1,0 +1,82 @@
+$white: #FFFFFF;
+$black: #000000;
+
+$turquoise900: #135757;
+$turquoise800: #1A6969;
+$turquoise700: #1F7979;
+$turquoise600: #4C9494;
+$turquoise500: #79AFAF;
+$turquoise400: #A6C9C9;
+$turquoise300: #D2E4E4;
+$turquoise200: #DDEBEB;
+$turquoise100: #E9F2F2;
+$turquoise50: #F4F8F8;
+$turquoise25: #FBFCFC;
+
+$gray900: #101828;
+$gray800: #1D2939;
+$gray700: #344054;
+$gray600: #475467;
+$gray500: #667085;
+$gray400: #98A2B3;
+$gray300: #D0D5DD;
+$gray200: #E4E7EC;
+$gray100: #F2F4F7;
+$gray50: #F9FAFB;
+$gray25: #FCFCFD;
+
+$red900: #7A271A;
+$red800: #912018;
+$red700: #B42318;
+$red600: #D92D20;
+$red500: #F04438;
+$red400: #F97066;
+$red300: #FDA29B;
+$red200: #FECDCA;
+$red100: #FEE4E2;
+$red50: #FEF3F2;
+$red25: #FFFBFA;
+
+$green900: #054F31;
+$green800: #054F31;
+$green700: #027A48;
+$green600: #039855;
+$green500: #12B76A;
+$green400: #32D583;
+$green300: #6CE9A6;
+$green200: #A6F4C5;
+$green100: #D1FADF;
+$green50: #ECFDF3;
+$green25: #F6FEF9;
+
+$darkteal500: #1f7979;
+$darkteal400: #249f9f;
+
+$breakpoints: (
+small: 0,
+xsmall: 430px,
+medium: 550px,
+xmedium: 750px,
+xxmedium: 900px,
+large: 1050px,
+xlarge: 1220px,
+xxlarge: 1400px,
+xxxlarge: 1450px,
+xxxxlarge: 1920px,
+);
+
+$indent: 4px;
+$indent2: 8px;
+$indent3: 12px;
+$indent4: 16px;
+$indent5: 20px;
+$indent6: 24px;
+$indent7: 28px;
+$indent8: 32px;
+$indent9: 36px;
+$indent10: 40px;
+
+$filterGray400: invert(67%) sepia(15%) saturate(317%) hue-rotate(179deg) brightness(95%) contrast(85%);
+$filterGray500: invert(43%) sepia(7%) saturate(1161%) hue-rotate(183deg) brightness(97%) contrast(85%);
+$filterRed400: invert(59%) sepia(88%) saturate(1864%) hue-rotate(319deg) brightness(100%) contrast(96%);
+$filterWhite: invert(100%) sepia(6%) saturate(7491%) hue-rotate(173deg) brightness(112%) contrast(101%);
